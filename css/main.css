@@ -150,9 +150,16 @@ Content
 	margin: 0 auto;
 	padding: 90px 0;
 	font-family: Libre Baskerville;
-	max-width: 710px;
 
 }
+.width-710 {
+	max-width:710px;
+}
+
+.width-960 {
+	max-width:960px;
+}
+
 .intro {
 	font-size: 20px;
 	line-height: 40px;
@@ -164,4 +171,89 @@ Content
 .supporting {
 	font-size: 18px;
 	line-height: 36px;
+}
+
+
+
+.entry-header-about {
+    background-color: #232323;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 605px;
+    background-image: url(https://mwwglobe.files.wordpress.com/2013/03/14098446975_214a8c2276_k.jpg?w=2000&h=1500&crop=1);
+    
+}
+
+.entry-header-chasing-bayla {
+    background-color: #232323;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 605px;
+    background-image: url(https://mwwglobe.files.wordpress.com/2015/08/screen-shot-2015-08-08-at-5-10-46-pm.png?w=1378&h=620&crop=1);
+    
+}
+
+
+.entry-header-tablet {
+    background-color: #232323;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 605px;
+    background-image: url(https://mwwglobe.files.wordpress.com/2015/08/sports.png?w=1378&h=620&crop=1);
+    
+}
+
+
+
+.entry-headline {
+	font-family: Playfair Display;
+	font-weight: 700;
+	color: white;
+	font-size: 60px;
+	z-index: 2000;
+	margin: 0 auto;
+	padding-top: 450px;
+	max-width: 710px;
+}
+
+.portfolio-headline {
+	font-family: Playfair Display;
+	font-weight: 700;
+	color: black;
+	font-size: 37px;
+	margin-bottom: 30px;
+}
+
+.portfolio-entry {
+	line-height: 32px;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #efefef;
+}
+
+.portfolio-thumb {
+	float: right;
+	margin-left: 20px;
+}
+
+.supporting-link {
+	margin-top: 10px;
 }
