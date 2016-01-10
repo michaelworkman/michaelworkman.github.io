@@ -88,19 +88,16 @@ Header
 .nav {
 	background-color: white;
 	border-bottom: 1px solid #efefef;
-	padding-bottom: 15px;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space around;
+	height: 100px;
+	
 }
 
 .identity {
 	font-size: 30px;
 	font-family: "Lato";
 	font-weight: 900;
-	margin: 20px;
-	flex: 2 0px;
-	padding-top: 10px;
+	margin: 30px 20px 20px 20px;
+	float: left;
 }
 
 .nav_container {
@@ -109,6 +106,7 @@ Header
 	font-weight: 900;
 	padding-top: 10px;
 	margin: 30px 30px 20px 20px;
+	float: right;
 }
 .nav_item {
 	font-family: Libre Baskerville;
@@ -130,12 +128,37 @@ Header
 	padding: 5px 0 5px 33px;
 
 }
+.nav_button {
+	display: none;
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	margin: 45px 20px 0 0;
+}
 
 @media screen and (max-width: 815px) {
     .nav_container {
     	display: none;
+    	width: 100%;
     }
-}
+    .nav_button {
+    	display: block;
+    	float: right;
+    }
+	.show_nav li {
+		display:block;
+		border: none;
+		float: none;
+		width: 100%;
+	}
+	.show_nav {
+	display:block;
+	margin-top: 20px;
+	}
+}	
+
+
+
 
 /* 
 ------
@@ -232,6 +255,9 @@ Content
 	margin: 0 auto;
 	padding-top: 450px;
 	max-width: 710px;
+	margin-top: 0;
+	transition-property: margin-top;
+    transition-duration: 0.5s;
 }
 
 .portfolio-headline {
@@ -257,3 +283,26 @@ Content
 .supporting-link {
 	margin-top: 10px;
 }
+
+.down-arrow {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	transition-property: opacity;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+}
+
+.down {
+	margin-top: 10px;
+}
+
+.disappear {
+	opacity: 0;
+}
+
+
+
+
+
+
